@@ -1,4 +1,4 @@
-package com.LoginPage;
+package com.StepDefinitions.LoginPage;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -10,22 +10,22 @@ public class LoginPage {
 	@Given("user is on login page")
 	public void user_is_on_login_page() {
 
-		System.out.println("user is on login page");
+		System.out.println("Step 1 : user is on login page");
 	}
 
 	@When("user enters username and password")
 	public void user_enters_username_and_password() {
-		System.out.println("user enters username and password");
+		System.out.println("Step 2 : user enters username and password");
 	}
 
 	@And("click on login button")
 	public void click_on_login_button() {
-		System.out.println("click on login button");
+		System.out.println("Step 3 : click on login button");
 	}
 
 	@Then("user is navigated to the home page")
 	public void user_is_navigated_to_the_home_page() {
-		System.out.println("user is navigated to the home page");
+		System.out.println("Validate : user is navigated to the home page");
 	}
 
 //	@When("user enters user1 and pass1")
