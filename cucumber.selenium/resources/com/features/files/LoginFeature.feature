@@ -7,9 +7,15 @@
 #Then: To observe outcomes or validation
 #And,But: To enumerate more Given,When,Then steps
 #Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
-
-@SmokeScenario
+@All
 Feature: Feature to Test Login functionality
+
+  @RegressionTest
+  Scenario: Check login is successful with valid credentials
+    Given user is on login page
+    When user enters username and password
+    And click on login button
+    Then user is navigated to the home page
 
   @SmokeTest
   Scenario: Check login is successful with valid credentials

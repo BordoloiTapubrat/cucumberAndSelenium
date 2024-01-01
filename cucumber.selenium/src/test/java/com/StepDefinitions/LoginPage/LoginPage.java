@@ -27,17 +27,4 @@ public class LoginPage {
 	public void user_is_navigated_to_the_home_page() {
 		System.out.println("Validate : user is navigated to the home page");
 	}
-
-//	@When("user enters user1 and pass1")
-//	public void user_enters_user1_and_pass1() {
-//	    // Write code here that turns the phrase above into concrete actions
-//	    throw new io.cucumber.java.PendingException();
-//	}
-//
-//	@When("user enters user2 and pass2")
-//	public void user_enters_user2_and_pass2() {
-//	    // Write code here that turns the phrase above into concrete actions
-//	    throw new io.cucumber.java.PendingException();
-//	}
-
 }
