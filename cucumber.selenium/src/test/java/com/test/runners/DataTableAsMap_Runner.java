@@ -6,7 +6,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features={"resources/com/features/files/DataTableExample.feature"},
+@CucumberOptions(features={"resources/com/features/files/DataTableAsMaps.feature"},
 glue={"com.StepDefinitions.DataTableAsMap"},
 tags = "@RegressionTest",
 monochrome=true,
@@ -14,9 +14,6 @@ plugin = {"pretty", "html:target/HtmlReports/Cucumber-Report",
 		"json:target/JsonReports/jsonReport.json",
 		"junit:target/JunitReports/report.xml"
 })
-public class DataTable_Runner {
-	
-	
-	
+public class DataTableAsMap_Runner {
 
 }
